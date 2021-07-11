@@ -36,13 +36,13 @@
 <!-- header? -->
         <div class="card">
             <!-- banner -->
-            <div class="carousel slide" data-ride="carousel">
+            <div class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active image card-img">
                         <img class="d-block w-100" src="assets/pexels-emma-blackbourn-3789449.jpg" alt="bensam">
                     </div>
                     <div class="carousel-item image card-img">
-                        <img class="d-block w-100" src="assets/pexels-yeş-7524306.jpg"  alt="bensam">
+                        <img class="d-block w-100" src="assets/pexels-sourav-mishra-3136673.jpg"  alt="bensam">
                     </div>
                     <div class="carousel-item image card-img">
                         <img class="d-block w-100"src="assets/land.jpg" alt="bensam">
@@ -72,7 +72,7 @@
         <div class=" about">
                 <div class=" col-6">
                     <h1>About me</h1>
-                    <p>I am Anha Malik from united State. I am completed my graduation in 
+                    <p>I am benson mwaniki. I am completed my graduation in 
                         bachelor degree. Beside this, I am trained in Web Development and 
                         love to code using HTML5, CSS3, WordPress javascript & PHP. 
                         I very much enjoy using graphic designing
@@ -209,6 +209,7 @@
 
          <!-- blog section -->
          <div class="container blog">
+             <h1>Blogs By Bensam</h1>
             <div class="blogimg">
                <div>
                    <img src="assets/pexels-sabrina-gelbart-249798.jpg" alt="">
@@ -236,9 +237,11 @@
         </div>
 
         <!-- contact section-->
-
         <div class="footer">
             <h1>Let's work together</h1>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#contact">
+                Contact us
+              </button>
             <div>
                 <p>copyright 2021</p>
             </div>
@@ -246,5 +249,43 @@
 
 
     </div>
-</body>
+  <!-- end of container-fluid -->
+
+
+  <!-- Modal -->  
+  <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact us</h5>
+        </div>
+        <div class="modal-body">
+            <!-- form  -->
+            <form>
+                <div class="mb-3">
+                <label for="1stname" class="col-form-label">First Namme:</label>
+                <input type="text" class="form-control" id="1stname">
+                </div>
+                <div class="mb-3">
+                    <label for="2ndname" class="col-form-label">Second Name:</label>
+                    <input type="text" class="form-control" id="2ndname">
+                    </div>
+                <div class="mb-3">
+                <label for="mail" class="col-form-label">Email:</label>
+                <input class="form-control" id="mail"></input>
+                </div>
+                <div class="mb-3">
+                    <label for="text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="text"></textarea>
+                </div>
+            </form>
+            <!-- form  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div></body>
 </html>
