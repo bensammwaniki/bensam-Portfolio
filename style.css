@@ -27,8 +27,10 @@
     overflow: hidden;
     opacity: 95%;
 }
-
-.card-img-overlay{
+.imge{
+    height: 715px;
+}
+.ov{
 left: 70%;
 top: 20%;
 color: white;
@@ -54,18 +56,55 @@ font-size: 1.5em;
 
 /* ==========================skills==========*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-.progress{
-    width: 40%;
+.skills{
+    display: flex;
 }
+
+
+.level{
+    display: flex;
+    height: 400px;
+}
+.creative{
+    display: flex;
+
+}
+.creative div{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+.creative img{
+max-width: 100%;
+height: 400px;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/* 
+.blog{
+    display: flex;
+    flex-direction: column;
+} */
+.blog img{
+    max-width: 100%;
+}
+.blogimg div{
+    width: 28%;
+}
+.blogimg{
+    display: flex;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+/* .progress{
+    width: 0%;
+} */
