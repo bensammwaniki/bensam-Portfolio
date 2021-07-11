@@ -78,12 +78,49 @@ text-align: center;
 .skills{
     display: flex;
 }
+.skills div{
+    margin: 10px;
+    background-color: cornsilk;
+    padding: 10px;
+    box-shadow: 1px 2px 9px gray;
+    text-align: center;
 
-
+}
+.skills div i{
+    font-size: 3rem;
+    background-color: rgb(253, 72, 0);
+    border-radius: 100%;
+}
+.skillsec{
+    margin-top: 100px;
+}
 .level{
     display: flex;
+    margin-top: 100px;
     height: 400px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 1px 2px 9px gray;
 }
+.intro{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.prog{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
 .creative{
     display: flex;
 
