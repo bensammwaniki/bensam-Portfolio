@@ -161,24 +161,27 @@ max-width: 100%;
 
 
 
-/* 
-.blog{
+
+.blogimg{
     display: flex;
-    flex-direction: column;
-} */
+    margin-top: 100px;
+    justify-content: space-between;
+}
 .blog img{
     max-width: 100%;
+    overflow: hidden;
+
 }
 .blogimg div{
     width: 28%;
-}
-.blogimg{
-    display: flex;
-    height: 350px;
+    height: fit-content;
     overflow: hidden;
+    padding: 10px;
+    box-shadow: 1px 2px 9px gray;
+}
+.blogimg div p{
+    text-align: left;
+    padding: 10px;
+    margin-top: 5px;
 }
 
-
-/* .progress{
-    width: 0%;
-} */
