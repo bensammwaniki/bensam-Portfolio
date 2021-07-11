@@ -1,0 +1,17 @@
+
+
+
+.navbar{
+    width: 80%;
+    background-color: #fc6603;
+    color: white;
+    margin: auto;
+}
+.navbar a{
+    text-decoration: underline;
+    margin-left: 20px;
+    color: white;
+}
+.navbar ul{
+    margin-left: 40%;
+}
